@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rJKAbDd_z",
+    "companyId": "HJRa-DOuG",
+    "title": "Frontend Developer",
+    "description": "We are looking for a Frontend Developer familiar with React."
+  },
+  {
+    "id": "SJRAZDu_z",
+    "companyId": "HJRa-DOuG",
+    "title": "Backend Developer",
+    "description": "We are looking for a Backend Developer familiar with Node.js and Express."
+  },
+  {
+    "id": "rkz1GwOOM",
+    "companyId": "SJV0-wdOM",
+    "title": "Full-Stack Developer",
+    "description": "We are looking for a Full-Stack Developer familiar with Node.js, Express, and React."
+  },
+  {
+    "id": "rkbBhFD7B",
+    "companyId": "SJV0-wdOM",
+    "title": "QA Automation engineer",
+    "description": "A really really good QA automation"
+  },
+  {
+    "id": "B1P_3KDXr",
+    "companyId": "SJV0-wdOM",
+    "title": "Junior Tester",
+    "description": "For a page web"
+  },
+  {
+    "id": "rkJ2x5vQH",
+    "companyId": "SJV0-wdOM",
+    "title": "QA Automation engineer",
+    "description": "A really really good QA automation"
+  },
+  {
+    "id": "ByUjqZjmr",
+    "companyId": "SJV0-wdOM",
+    "title": "Test",
+    "description": "test"
+  }
+]
