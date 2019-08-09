@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { JobList } from './JobList';
-import { fetchJobsData } from './API'
+import { fetchJobsData } from '../utils/api'
 
 export class JobBoard extends Component {
   state = {

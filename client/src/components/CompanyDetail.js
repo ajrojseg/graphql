@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { JobList } from './JobList'
-import { fetchCompanyData } from './API'
+import { fetchCompanyData } from '../utils/api'
 
 export class CompanyDetail extends Component {
   state = { 
@@ -18,8 +18,8 @@ export class CompanyDetail extends Component {
 
     return (
       <div>
-        <h1 className="title">{company.name}</h1>
-        <div className="box">{company.description}</div>
+        <h1 className="title">{ company.name }</h1>
+        <div className="box">{ company.description }</div>
 
         <h2 className="title">Job Openings</h2>
         <JobList jobs={ company.jobs || [] } />

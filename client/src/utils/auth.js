@@ -1,6 +1,3 @@
-// NOTE: this example keeps the access token in LocalStorage just because it's simpler
-// but in a real application you may want to use cookies instead for better security
-
 const accessTokenKey = 'accessToken';
 
 export const login = async (email, password) => {
