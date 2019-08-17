@@ -1,13 +1,16 @@
 type Query {
     company(id: ID!): Company
+    companies: [Company]
     job(id: ID!): Job
     jobs: [Job]
 }
 
 type Mutation {
     createJob(input: CreateJobInput): Job
+    createAccount(input: CreateAccountInput): Response
 }
 
+# Types
 type Company {
     id: ID!
     name: String
@@ -22,7 +25,33 @@ type Job {
     company: Company
 }
 
+type User {
+    id: ID!
+    email: String!
+    password: String!
+    companyId: ID!
+}
+
+# Responses
+type Response {
+    status: Int!
+    message: String!
+}
+
+type JobResponse {
+    job: Job
+    response: Response
+}
+
+# User Inputs
 input CreateJobInput {
     title: String
     description: String
+}
+
+input CreateAccountInput {
+    name: String!
+    description: String
+    email: String!
+    password: String
 }

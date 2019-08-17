@@ -13,13 +13,17 @@ export class CompanyDetail extends Component {
     this.setState({ company })
   }
 
+  setDescription = html => {
+    return  { __html: html };
+  }
+
   render() {
     const { company } = this.state
-
+    
     return (
       <div>
         <h1 className="title">{ company.name }</h1>
-        <div className="box">{ company.description }</div>
+        <div className="box" dangerouslySetInnerHTML={ this.setDescription(company.description) } />
 
         <h2 className="title">Job Openings</h2>
         <JobList jobs={ company.jobs || [] } />

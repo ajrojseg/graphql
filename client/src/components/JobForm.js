@@ -3,8 +3,8 @@ import { postJobData } from '../utils/api'
 
 export class JobForm extends Component {
   state = { 
-    title: '', 
-    description: '' 
+    title: null, 
+    description: null 
   }
 
   handleChange(event) {

@@ -12,9 +12,15 @@
     "companyId": "SJV0-wdOM"
   },
   {
-    "id": "ry9pbwdzz",
-    "email": "alvaro.rojas@gorillalogic.co",
+    "id": "BklzZuTo7r",
+    "email": "alvaro.rojas@gorillalogic.com",
     "password": "alvaro123",
-    "companyId": "SJV0-wdOM"
+    "companyId": "SkfWdTj7H"
+  },
+  {
+    "id": "BJeR8nkTXH",
+    "email": "fake@fake.com",
+    "password": "123",
+    "companyId": "ry0Lh1T7r"
   }
 ]
